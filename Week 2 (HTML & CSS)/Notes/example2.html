@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <label for="query"> Google:</label> <input id="query" 
+        type="text" name="q" value="" placeholder="Enter your query" size="40" maxlength="10" /> <br><br><br>
+        <!--type = passwd or checkbox or radio or file or **hidden or date
+        or reset  or required or disabled-->
+        <!--type attributes ^^^^^^^   -->
+
+        Programming languages you know: <br>
+        <input type="checkbox" name="lang" value="C"> C <br>
+        <input type="checkbox" name="lang" value="Java"> Java <br>
+        <input type="checkbox" name="lang" value="Python"> Python <br><br><br>
+
+        Favorite color: <br>
+        <input type="radio" name="color" value="red"> red <br>
+        <input type="radio" name="color" value="green"> g <br>
+        <input type="radio" name="color" value="blue"> b <br>
+        <input type="submit" name="search" value="Search" /> <br><br><br>
+
+        Good:
+        <select name="GRADE" size="4" multiple="true">
+            <option value="A">Great</option>
+            <option value="B">Good</option>
+            <option value="C" selected>Passed</option>
+            <option value="NC">No Credit</option>
+        </select><br><br><br>
+
+        Optgroup:  <br>
+        <select name="grade" id="">
+            <optgroup name="grade" size="4" multiple="true">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+            </optgroup>
+        </select><br><br><br>
+
+        Fieldset:
+        <Fieldset>
+            <legend>Address</legend>
+            Street: <input type="text" name="street"/>
+            City: <input type="text" name="city"/>
+            Zip: <input type="text" name="street"/>
+        </Fieldset><br><br><br>
+
+        Your comments: <br>
+        <textarea name="comments" rows="5" cols="3"></textarea>
+    </form>
+</body>
+
+</html>

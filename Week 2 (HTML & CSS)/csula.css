@@ -1,0 +1,44 @@
+.top {
+    color: white;
+    background-color: black;
+    font-size: smaller;
+    text-align: right;
+}
+
+span{
+    color: gold;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    color: black; 
+    background-color: yellow;
+}
+
+.headlines {
+    font-weight: bold; 
+    font-size: larger;
+}
+
+.csula {
+    font-size: 200%;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.word {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+[name="center"] {
+    text-align: center;
+}
