@@ -1,0 +1,53 @@
+body {
+    background-image: url(texture.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+div:first-of-type {
+    background-color: black;
+}
+
+tr:first-of-type {
+    background-color: teal;
+}
+
+#menu1>a:link , #menu1>a:visited {
+    color: white
+}
+
+#menu1 > a:hover {
+    color: gold
+}
+
+div ~ div {
+    background: yellowgreen;
+}
+
+div {
+    border-top-style: solid;
+    border-top-color: brown;
+    border-bottom: 1px dotted black;
+    border-radius: 5px 10px 15px 20px;
+}
+
+.text1 {
+    margin: 10px 2px;
+    padding: 5px;
+}
+.text2 {
+    width: 50%;
+    height: 6em;
+    padding-top: 15px;
+}
+
+span {
+    display: inline-block;
+    width: 100px;
+    border: black 1px solid;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}

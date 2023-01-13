@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+}
+
+.margin {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.container {
+    position: fixed;
+    width: 98.5%;
+    margin-top: 0em;
+    display: block;
+}
+
+/* My Bargains Top */
+.header {
+    display: block;
+    border: gray 2px solid;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0em;
+    top: 0px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+/* Links */
+.firstMenu {
+    display: block;
+    border: black 2px solid;
+    border-top: 0px;
+    margin-bottom: 1em;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+}
+
+/* Layout */
+.left {
+    float: left;
+    width: 70%;
+    margin-right: 0em;
+    margin-top: 11em;
+}
+
+.right {
+    float: right;
+    width: 28%;
+    margin-top: 11em;
+}
+
+/* Ads */
+.ads {
+    background: yellow;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0em;
+}
+
+.big {
+    width: 500px;
+    height: 300px;
+}
+
+.small {
+    width: 300px;
+    height: 300px;
+}
+
+/* Latest Deals | Trending Deals */
+.titles {
+    display: block;
+    border: black 2px solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+    font-weight: bold; 
+    font-size: 200%;
+}
+
+/* Deals # */
+.block {
+    display: block;
+    border: black 2px solid;
+    border-bottom: 0px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.deal {
+    font-weight: bold; 
+    font-size: 150%;
+}
+
+p {
+    font-size: 125%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+.footer {
+    clear: both;
+    display: block;
+    border: black 2px solid;
+    text-align: center;
+    padding: 0.5em;
+}
+

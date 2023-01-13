@@ -1,0 +1,27 @@
+/* This is for the layout like a table */
+.align {
+    display: flex;
+    flex-direction: row;
+}
+
+/* This is for the spacing between the words(LEFT) and inputs(RIGHT) */
+.align div {
+    margin-right: 1em;
+    inline-size: 6em;
+}
+
+/* This is for width of input text boxes */
+.align input {
+    padding-right: 3em;
+}
+
+/* This is to remove UNDERLINE */
+a:link, a:hover, a:visited, a:active {
+    text-decoration-line: none;
+}
+
+/* This is to put spacing between every LINE */
+br {
+    display: block;
+    margin-bottom: 0.5em;
+}
